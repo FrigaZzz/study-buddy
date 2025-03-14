@@ -1,0 +1,13 @@
+1. Start CLI
+2. Check status
+3. Set preferences
+4. View help
+5. Request initial content
+6. Practice exercises
+7. Complete quiz
+8. Check progress
+9. Move to next topic
+10. Review previous topic
+11. Take assessment
+12. Check updated progress
+13. View mastery levels 

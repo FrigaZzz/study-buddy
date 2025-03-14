@@ -1,0 +1,76 @@
+# Main configuration file for the learning framework
+
+# Language model configuration
+llm:
+  model_name: "qwen2.5-coder:14b"  # Using the Qwen coder model for better instruction following
+  temperature: 0.7
+  base_url: "http://localhost:11434"
+
+# Embeddings configuration
+embeddings:
+  model_name: "phi3:3.8b"  # Very fast with good quality
+  base_url: "http://localhost:11434"
+
+# RAG configuration
+rag:
+  retrieval_k: 5
+  chunk_size: 1000
+  chunk_overlap: 200
+
+# Web search configuration
+web_search:
+  api_key: ""  # Add your search API key here
+  search_url: "https://api.search.com/v1/search"
+  num_results: 5
+
+# Learning agent configuration
+learning_agent:
+  max_content_length: 2000
+  include_examples: true
+  include_references: true
+
+# Assessment agent configuration
+assessment_agent:
+  default_question_count: 3
+  default_question_types:
+    - multiple_choice
+    - open_ended
+  default_difficulty: "medium"
+
+# Checkpoint configuration
+checkpoints:
+  - topic: "Python Programming"
+    subtopic: "Variables and Data Types"
+    question_count: 5
+    question_types:
+      - multiple_choice
+      - open_ended
+    difficulty: "beginner"
+  - topic: "Python Programming"
+    subtopic: "Functions"
+    question_count: 4
+    question_types:
+      - multiple_choice
+      - code_completion
+    difficulty: "intermediate"
+
+# Curriculum configuration
+curriculum:
+  - topic: list
+    subtopics:
+      - "Introduction to Python Lists"
+      - "List Operations"
+      - "List Methods"
+      - "List Comprehensions"
+      - "Advanced List Techniques"
+  - topic: "Machine Learning"
+    subtopics:
+      - "Introduction to ML"
+      - "Supervised Learning"
+      - "Unsupervised Learning"
+      - "Neural Networks"
+      - "Evaluation Metrics"
+
+# Interface configuration
+interface:
+  share: false

@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/jupyter/runtime/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written into a dist/ folder, but PyInstaller
+#  can be told to write somewhere else.
+_MEI*
+#   Exclude single files built by PyInstaller
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Env/
+pyvenv.cfg
+*.virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+mypy-report/
+mypy-html/
+
+# Sphinx documentation
+docs/_build/
+
+# Temp files
+*.swp
+*~
+# Others
+*.log
+*.bak
+*.orig
+*.pyc
+
+# OS generated files #
+.DS_Store
+Thumbs.db

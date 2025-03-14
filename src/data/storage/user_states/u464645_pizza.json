@@ -1,0 +1,11 @@
+{
+  "user_id": "u464645",
+  "current_topic": "pizza",
+  "current_subtopic": "Introduction to Python",
+  "progress": 0,
+  "checkpoint_results": [],
+  "last_agent": null,
+  "learning_content": "Sorry, there was an error generating the learning content. Please try again.",
+  "error": "Error generating learning content: 'RAGProvider' object has no attribute 'query'",
+  "last_updated": "2025-03-07T21:42:12.824259"
+}
